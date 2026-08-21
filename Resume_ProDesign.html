@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shankar - Frontend Developer Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .resume-wrapper {
+            background: white;
+            width: 8.5in;
+            height: 11in;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: grid;
+            grid-template-columns: 1fr 1.3fr;
+            grid-template-rows: auto 1fr;
+        }
+
+        .header {
+            grid-column: 1 / -1;
+            background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%);
+            color: white;
+            padding: 25px 30px;
+            border-bottom: 3px solid #3498db;
+        }
+
+        .header h1 {
+            font-size: 38px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        .header p {
+            font-size: 16px;
+            color: #ecf0f1;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .left-column {
+            background-color: #f9f9f9;
+            padding: 25px 20px;
+            border-right: 1px solid #e0e0e0;
+        }
+
+        .right-column {
+            padding: 25px 25px;
+            background: #fff;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+            margin-bottom: 12px;
+        }
+
+        .contact-info {
+            font-size: 11px;
+            line-height: 1.8;
+        }
+
+        .contact-info p {
+            margin-bottom: 6px;
+            color: #34495e;
+        }
+
+        .contact-info strong {
+            color: #2c3e50;
+            display: inline-block;
+            width: 70px;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .job-entry {
+            margin-bottom: 15px;
+        }
+
+        .job-title {
+            font-size: 12px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 3px;
+        }
+
+        .job-company {
+            font-size: 11px;
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .job-dates {
+            font-size: 10px;
+            color: #95a5a6;
+            margin-bottom: 5px;
+        }
+
+        .job-description {
+            font-size: 11px;
+            color: #34495e;
+            line-height: 1.5;
+            margin-left: 10px;
+        }
+
+        .job-description ul {
+            margin: 0;
+            padding-left: 15px;
+            list-style: none;
+        }
+
+        .job-description ul li {
+            margin-bottom: 3px;
+        }
+
+        .job-description ul li:before {
+            content: "▸ ";
+            color: #3498db;
+            margin-right: 5px;
+        }
+
+        .professional-summary {
+            font-size: 11px;
+            color: #34495e;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .skills-list {
+            font-size: 11px;
+            color: #34495e;
+            line-height: 1.7;
+        }
+
+        .skill-category {
+            margin-bottom: 10px;
+        }
+
+        .skill-category strong {
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        .portfolio-list {
+            font-size: 10px;
+        }
+
+        .portfolio-list ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .portfolio-list li {
+            margin-bottom: 5px;
+            line-height: 1.4;
+        }
+
+        .portfolio-list a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .portfolio-list a:hover {
+            text-decoration: underline;
+        }
+
+        .education-section {
+            font-size: 11px;
+        }
+
+        .education-item {
+            margin-bottom: 10px;
+        }
+
+        .education-item strong {
+            color: #2c3e50;
+            display: block;
+        }
+
+        .education-item span {
+            color: #7f8c8d;
+            font-size: 10px;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .resume-wrapper {
+                box-shadow: none;
+                width: 100%;
+                height: 100%;
+            }
+
+            a {
+                color: #3498db;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="resume-wrapper">
+        <div class="header">
+            <h1>SHANKAR</h1>
+            <p>Frontend Developer</p>
+        </div>
+
+        <div class="left-column">
+            <div class="section">
+                <div class="section-title">Contact</div>
+                <div class="contact-info">
+                    <p><strong>Address:</strong> Ambala, India</p>
+                    <p><strong>Phone:</strong> +91 7015034609</p>
+                    <p><strong>Email:</strong> <a href="mailto:shankar300597@gmail.com">shankar300597@gmail.com</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/Shankar997">github.com/Shankar997</a></p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Work History</div>
+
+                <div class="job-entry">
+                    <div class="job-title">Frontend Developer</div>
+                    <div class="job-company">Silverfern Digital, Panchkula</div>
+                    <div class="job-dates">Apr 2024 - Present</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Develop scalable web apps using React.js & Next.js</li>
+                            <li>Build reusable UI components</li>
+                            <li>Integrate REST APIs</li>
+                            <li>Optimize performance & responsiveness</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="job-entry">
+                    <div class="job-title">Senior Web Designer / Team Lead</div>
+                    <div class="job-company">Zestgeek, Mohali</div>
+                    <div class="job-dates">Sep 2023 - Mar 2024</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Led frontend design team</li>
+                            <li>Developed WordPress websites</li>
+                            <li>Code reviews & issue resolution</li>
+                            <li>Project delivery coordination</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="job-entry">
+                    <div class="job-title">Frontend Developer / Senior Designer</div>
+                    <div class="job-company">Itechnolabs</div>
+                    <div class="job-dates">Mar 2022 - Jun 2023</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>React.js & HTML projects</li>
+                            <li>Team Lead responsibilities</li>
+                            <li>Code reviews & mentoring</li>
+                            <li>Team task allocation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="job-entry">
+                    <div class="job-title">Web Designer</div>
+                    <div class="job-company">Technocrats Horizons</div>
+                    <div class="job-dates">Apr 2021 - Mar 2022</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Built WordPress websites</li>
+                            <li>Theme & plugin customization</li>
+                            <li>Contact Form 7 integration</li>
+                            <li>SEO-friendly page delivery</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="job-entry">
+                    <div class="job-title">Web Designer & Graphic Designer</div>
+                    <div class="job-company">Scorpsoft Ventures</div>
+                    <div class="job-dates">Dec 2019 – Apr 2021</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Developed websites from PSD designs.</li>
+                            <li>Converted PSD to responsive HTML.</li>
+                            <li>Created custom website layouts and graphics.</li>
+                            <li>Worked with Web Developers in WordPress's Projects.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="section">
+                <div class="section-title">Professional Summary</div>
+                <div class="professional-summary">
+                    I have 6 years of experience, As a skilled and motivated Frontend Developer, I possess a deep
+                    understanding of web technologies and a passion for creating seamless user experiences. I have
+                    honed my expertise in React.js, Next.js, JavaScript, Tailwind CSS, and Hero UI.
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Skills</div>
+                <div class="skills-list">
+                    <div class="skill-category">
+                        <strong>Frontend:</strong>
+                        React.js, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Tailwind CSS, SCSS, Bootstrap,
+                        Hero UI
+                    </div>
+                    <div class="skill-category">
+                        <strong>CMS & E-commerce:</strong>
+                        WordPress
+                    </div>
+                    <div class="skill-category">
+                        <strong>Tools:</strong>
+                        Git, GitHub, REST APIs, Figma
+                    </div>
+                    <div class="skill-category">
+                        <strong>Competencies:</strong>
+                        Responsive Design, Component Architecture, Performance Optimization, Leadership, Team
+                        Collaboration
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Websites & Portfolios</div>
+                <div class="portfolio-list">
+                    <ul>
+                        <li><a
+                                href="https://uat-sobhaverse.sobhaapps.com/en">https://uat-sobhaverse.sobhaapps.com/en</a>
+                        </li>
+                        <li><a href="https://www.statementgenie.com/">https://www.statementgenie.com/</a></li>
+                        <li><a
+                                href="https://sr-app-dcx-itreport-uat-adc8gqebe6akdwe9.uaenorth-01.azurewebsites.net/en">https://sr-app-dcx-itreport-uat-adc8gqebe6akdwe9.uaenorth-01.azurewebsites.net/en</a>
+                        </li>
+                        <li><a href="https://magicalphotos.net">https://magicalphotos.net</a></li>
+                        <li><a href="https://grillmasters.in/">https://grillmasters.in/</a></li>
+                        <li><a href="http://krisper.in/">http://krisper.in/</a></li>
+                        <li><a href="https://gullacpa.com/">https://gullacpa.com/</a></li>
+                        <li><a href="https://www.howtonetwork.com/">https://www.howtonetwork.com/</a></li>
+                        <li><a
+                                href="https://github.com/Shankar997/StanchieriFamilyLaw">https://github.com/Shankar997/StanchieriFamilyLaw</a>
+                        </li>
+                        <li><a
+                                href="https://github.com/Shankar997/Marinee-Passion">https://github.com/Shankar997/Marinee-Passion</a>
+                        </li>
+                        <li><a
+                                href="https://github.com/Shankar997/Marketlight/tree/main">https://github.com/Shankar997/Marketlight/tree/main</a>
+                        </li>
+                        <li><a href="https://mondofrescala.myshopify.com/">https://mondofrescala.myshopify.com/</a></li>
+                        <li><a href="https://weekendmaids.net/">https://weekendmaids.net/</a></li>
+                        <li><a href="https://shepherdcares.com/">https://shepherdcares.com/</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Education</div>
+                <div class="education-section">
+                    <div class="education-item">
+                        <strong>Bachelor of Science</strong>
+                        <span>Computer Science, S.A. Jain College</span>
+                    </div>
+                    <div class="education-item">
+                        <strong>Senior Secondary (12th)</strong>
+                        <span>Government School - HBSE</span>
+                    </div>
+                    <div class="education-item">
+                        <strong>Secondary (10th)</strong>
+                        <span>Government School - HBSE</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Languages</div>
+                <p style="font-size: 11px; color: #34495e;">English, Hindi, Punjabi</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

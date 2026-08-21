@@ -1,0 +1,135 @@
+SHANKAR
+Frontend Developer
+
+CONTACT INFORMATION
+Location: Ambala, India
+Phone: +91 7015034609
+Email: shankar300597@gmail.com
+GitHub: https://github.com/Shankar997
+
+PROFESSIONAL SUMMARY
+Frontend Developer with 4+ years of experience building responsive, scalable, and high-performance web applications. Proficient in React.js, Next.js, JavaScript, TypeScript, Tailwind CSS, Bootstrap, SCSS, WordPress, and Shopify. Strong expertise in reusable component architecture, REST API integration, responsive design, and modern frontend development practices. Proven track record of collaborating with designers and backend developers while maintaining clean, maintainable code.
+
+TECHNICAL SKILLS
+
+Frontend Technologies
+React.js, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Tailwind CSS, SCSS, Bootstrap, Hero UI
+
+CMS & E-commerce
+WordPress, Shopify, Elementor, Custom Themes and Plugins
+
+Development Tools
+Git, GitHub, REST APIs, Responsive Design, Cross-Browser Compatibility
+
+Design Tools
+Figma, Adobe Photoshop
+
+CORE COMPETENCIES
+- Responsive Web Development
+- Component-Based Architecture
+- REST API Integration
+- Pixel-Perfect UI Development
+- Performance Optimization
+- Team Leadership and Code Review
+- Problem Solving
+- Cross-Functional Collaboration
+- Agile Development
+
+PROFESSIONAL EXPERIENCE
+
+Frontend Developer | Apr 2024 - Present
+Key Responsibilities:
+- Develop and maintain scalable web applications using React.js and Next.js
+- Build reusable, modular, and maintainable UI components
+- Integrate REST APIs and implement dynamic data rendering
+- Collaborate with UI/UX designers to deliver pixel-perfect interfaces
+- Optimize website performance and responsiveness across devices
+- Implement responsive layouts using Tailwind CSS and Hero UI
+- Manage source code using Git and GitHub
+Technologies: React.js, Next.js, JavaScript, Tailwind CSS, Hero UI, REST APIs, Git
+
+Senior Web Designer / Team Lead | Sep 2023 - Mar 2024
+Zestgeek, Mohali
+Key Responsibilities:
+- Led a frontend design and development team
+- Developed websites using WordPress, Shopify, and HTML
+- Reviewed code and resolved complex frontend issues
+- Coordinated team tasks and ensured timely project delivery
+Technologies: WordPress, Shopify, HTML, CSS, JavaScript
+
+Frontend Developer / Senior Web Designer | Mar 2022 - Jun 2023
+Itechnolabs
+Key Responsibilities:
+- Worked on React.js and HTML-based projects
+- Managed frontend development activities as Team Lead
+- Allocated tasks and monitored daily team progress
+- Conducted code reviews and resolved critical technical issues
+- Collaborated with developers and designers for project execution
+Technologies: React.js, JavaScript, HTML, CSS, Bootstrap, Git
+
+Web Designer | Apr 2021 - Mar 2022
+Technocrats Horizons
+Key Responsibilities:
+- Built and maintained WordPress websites
+- Customized themes and plugins
+- Worked extensively with Elementor and Contact Form 7
+- Delivered responsive and SEO-friendly web pages
+
+Web Designer & Graphic Designer | Dec 2019 - Apr 2021
+Scorpsoft Ventures
+Key Responsibilities:
+- Developed websites from PSD designs
+- Converted PSD to responsive HTML
+- Created custom website layouts and graphics
+- Worked with custom WordPress themes
+
+FEATURED PROJECTS
+
+Jobr Merchant Admin (merchant-admin.jobr.com)
+Built responsive frontend modules, developed reusable UI components, and integrated REST APIs.
+Tech Stack: React.js, Next.js, Tailwind CSS
+
+Jobr Admin Panel (adminpanel.jobr.com)
+Developed administrative dashboard with wallet management interfaces and responsive layouts.
+
+Whetness (whetness.com)
+Built responsive frontend pages, enhanced user experience, and implemented API integrations.
+
+Krisper (krisper.in)
+Developed frontend interfaces and improved website responsiveness.
+
+Grill Masters (grillmasters.in)
+Developed responsive website UI.
+
+Weekend Maids (weekendmaids.net)
+Frontend development and UI improvements.
+
+Mondo Fresca (mondofrescala.myshopify.com)
+Shopify customization and responsive UI implementation.
+
+Gulla CPA (gullacpa.com)
+Improved mobile responsiveness and optimized layouts for multiple devices.
+
+Shepherd App (uat-shepherdapp-frontend.itechnolabs.tech)
+Built responsive frontend pages and integrated application features.
+
+Additional Projects:
+- magicalphotos.net/more-love-stories
+- howtonetwork.com
+- GitHub: StanchieriFamilyLaw
+- GitHub: Marinee-Passion
+- GitHub: Marketlight
+
+EDUCATION
+
+Bachelor of Science (Computer Science)
+S.A. Jain College, Kurukshetra University
+
+Senior Secondary (12th)
+Government School - HBSE
+
+Secondary (10th)
+Government School - HBSE
+
+LANGUAGES
+English, Hindi
